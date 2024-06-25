@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Site elaborado para P2 de Laboratório de Programação de Web Sites">
+	<meta name="author" content="Hugo Lelly de Lima Marinho">
+	<title>LuBi | Bem-vindo</title>
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="icon" href="icons/LuBi_Icon.svg">
+</head>
+
+<body>
+	<header>
+		<div class="Navbar">
+			<div class="Navbar__Link Navbar__Link-brand">
+				<img src="icons/LuBi_Icon.svg" style="width:10%">
+			</div>
+			<div class="Navbar__Link Navbar__Link-toggle">
+				<i class="fas fa-bars"></i>
+			</div>
+			<nav class="Navbar__Items">
+				<div class="Navbar__Link">
+					<a href="index.html" class="menu_button">Início</a>
+				</div>
+				<div class="Navbar__Link">
+					<a href="produtos.html" class="menu_button">Produtos</a>
+				</div>
+				<div class="Navbar__Link">
+					<a href="sobre.html" class="menu_button">Sobre</a>
+				</div>
+				<div class="Navbar__Link">
+					<a href="contato.html" class="menu_button">Contato</a>
+				</div>
+			</nav>
+			<nav class="Navbar__Items Navbar__Items--right">
+				<div class="Navbar__Link">
+					<div class="mode">
+						<label class="switch">
+							<input type="checkbox" id="toggleDarkMode">
+							<span class="slider round"></span>
+						</label>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section class="sub-section">
+			<div class="sub-text">
+				<h1>Bem-vindo à LuBi Presentes e Papelaria</h1>
+				<a>A LuBi Presentes e Papelaria é muito mais do que uma loja - somos uma história de amor e
+					criatividade, nascida da conexão especial entre mãe e filha. Bianca e Luana, fundadoras da LuBi,
+					compartilham não apenas uma ligação familiar, mas também uma paixão por momentos especiais e
+					produtos únicos. Nossa loja online e nossas duas lojas físicas em Maricá e Itaipuaçu são lugares
+					onde cada cliente é recebido com um sorriso caloroso e onde a magia da papelaria e dos presentes
+					criativos se torna realidade. Cada detalhe de nossa loja reflete nosso compromisso em proporcionar
+					uma experiência única a todos que nos visitam.Estamos aqui para celebrar cada momento com você e
+					para fazer parte de sua jornada, seja online ou pessoalmente. Venha nos visitar e descubra por que
+					na LuBi, cada cliente é mais do que um visitante - é parte da nossa família Junte-se a nós e faça
+					parte dessa história de amor, criatividade e conexão. Estamos ansiosos para recebê-lo de braços
+					abertos.</a>
+		</section>
+
+		<section class="carrossel">
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 3</div>
+					<img src="images/photo1.jpg" style="width:100%">
+					<div class="text">Aqui na LuBi montamos o kit do personagem favorito do seu amor 🎁❤️</div>
+				</div>
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 3</div>
+					<img src="images/photo2.jpg" style="width:100%">
+					<div class="text">Você orá, o universo ouve. Você espera, o universo prepara. Você crê, o universo
+						faz. Você
+						agradece, o universo multiplica</div>
+				</div>
+				<div class="mySlides fade">
+					<div class="numbertext">3 / 3</div>
+					<img src="images/photo3.jpg" style="width:100%">
+					<div class="text">Confie na sua Jornada</div>
+				</div>
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="next" onclick="plusSlides(1)">❯</a>
+			</div>
+			<br>
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+		</section>
+
+		<section class="container-column">
+			<div class="container">
+				<div class="column">
+					<img src="images/photo4.jpg" style="width:100%">
+					<h3>Kit Dia dos Namorados</h3>
+					<p>Aqui na LuBi montamos o kit do personagem favorito do seu amor 🎁❤️</p>
+				</div>
+				<div class="column">
+					<img src="images/photo5.jpg" style="width:100%">
+					<h3>Decoração</h3>
+					<p>Você irá, o universo ouve. Você espera, o universo prepara. Você crê, o universo faz. Você
+						agradece, o universo multiplica. Eu ouvi um amém!</p>
+				</div>
+				<div class="column">
+					<img src="images/photo6.jpg" style="width:100%">
+					<h3>Lazer</h3>
+					<p>Confie na sua jornada 🦋</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="footer">
+			<div></div>
+			<div class="footer_text">
+				<ul>
+					<li><strong>Contato</strong></li>
+					<li>Entre em contato conosco:</li>
+					<li>Email: <a href="mailto:lubipresentesepapelaria@gmail.com">lubipresentesepapelaria@gmail.com</a>
+					</li>
+					<li>Telefone: <a href="tel:+5521972720745">(21) 97272-0745</a></li>
+				</ul>
+			</div>
+
+			<div class="redes_sociais">
+				<div class="tooltip">
+					<a href="https://www.instagram.com/lubipresentesepapelaria/" target="_blank">
+						<img src="icons/instagram.svg" alt="Instagram">
+						<span class="tooltiptext">Instagram</span>
+					</a>
+				</div>
+				<div class="tooltip">
+					<a href="https://www.facebook.com/lubipresentesepapelaria" target="_blank">
+						<img src="icons/facebook.svg" alt="Facebook">
+						<span class="tooltiptext">Facebook</span>
+					</a>
+				</div>
+				<div class="tooltip">
+					<a href="https://www.tiktok.com/@lubipresentesepapelaria" target="_blank">
+						<img src="icons/tiktok.svg" alt="TikTok">
+						<span class="tooltiptext">TikTok</span>
+					</a>
+				</div>
+				<div class="tooltip">
+					<a href="https://wa.me/5521972720745" target="_blank">
+						<img src="icons/whatsapp.svg" alt="WhatsApp">
+						<span class="tooltiptext">WhatsApp</span>
+					</a>
+				</div>
+			</div>
+
+		</div>
+		<div class="footer_bottom">
+
+			<p>Desenvolvido por Hugo Lelly - © 2021 LuBi Presentes e Papelaria. Todos os direitos reservados.</p>
+		</div>
+	</footer>
+	<script src="script/script.js"></script>
+</body>
+
+</html>
